@@ -1,0 +1,20 @@
+Partners:
+Curtis Lee (cuslee)
+Trina Tran (htran15)
+
+Files:
+README
+experiment1.txt
+experiment1.jpg (graph for experiment 1)
+experiment2.txt
+mcts_vanilla.py
+mcts_modified.py
+
+
+Heuristics for mcts_vanilla:
+
+Heuristic was added in 'think'
+Purpose of heuristic: 
+	Check if mcts bot can win the current box, if so, take owner of that box. 
+	If there are multiple possible win locations for that box,
+    take the spot with the highest rate of winning the game.

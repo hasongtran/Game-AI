@@ -1,0 +1,42 @@
+Experiment 1
+
+Analysis:
+
+Vanilla vs vanilla2
+
+10 nodes:
+  wins: 60
+  losses: 32
+  ties: 4
+
+100 nodes:
+  wins: 49	
+  losses: 47
+  ties: 4
+
+500 nodes:
+  wins: 72	
+  losses: 28
+  ties: 5
+
+
+1000 nodes:
+  wins: 85
+  losses: 15
+  ties: 0
+
+ - mcts_vanilla2 will always perform at a fixed rate of 100 nodes/tree
+ - mcts_vanilla will test against mcts_vanilla2 4 times, each time with different
+   a different amount of nodes
+ - Each variation of nodes will be ran over 100 games
+
+Result:
+ - We tested 2 different versions of the code. One returning the node with the best
+   UCB and the other returning the nodes with the best win rates.
+ - For UCB's result, it appears that lesser amount of nodes/tree wins more than
+   the higher amount of nodes/tree. However, the difference is not enough for it
+   to be counted as significant.
+ - For the best win rate's result, mcts appears to be performing better than when we
+   tested UCB. Attributing more nodes to the tree also increased the chance of winning.
+   The tie rate is also much lower than when we tested with best rate.
+ - Note that the graph we show and the code submitted is using win rates.

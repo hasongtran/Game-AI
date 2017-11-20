@@ -1,0 +1,26 @@
+Experiment 2
+
+Analysis:
+
+Heuristic vs vanilla
+
+10 nodes:
+  wins: 71
+  losses: 25
+  ties: 4
+
+100 nodes:
+  wins: 82
+  losses: 13
+  ties: 5
+
+1000 nodes:
+  wins: 85
+  losses: 15
+  ties: 0
+
+From the results from testing 3 different amount of nodes per tree, we can see that
+heuristic consistently beats out vanilla. Furthermore, the higher the nodes per tree
+values are, the higher the chance of winning is. However, there doesn't seem to be
+much of a difference between 100 nodes and 1000 nodes to a tree, but there is a big
+difference between raising from 10 nodes to either 100 nodes or 1000 nodes. 
