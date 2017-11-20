@@ -4,7 +4,4 @@ Partners: Ha Song Tran
 	  Richard Selmon
 
 Objective: 
-mplement, in Python, a bot that plays Planet Wars using Behavior Trees. Planet Wars is a real-time strategy game in 
-which you have to conquer a galaxy, planet by planet. Each planet produces ships per turn, and ships can be used to 
-take over other planets from the enemy or neutral forces (similar to Galcon). The goal is to design a reactive bot 
-with a single behavior tree which successfully wins against a series of test bots, each representing a unique challenge.
+Implemented, in Python, a bot that plays Planet Wars using Behavior Trees. Planet Wars is a real-time strategy game in which you have to conquer a galaxy, planet by planet. Each planet produces ships per turn, and ships can be used to take over other planets from the enemy or neutral forces (similar to Galcon). The goal is to design a reactive bot with a single behavior tree which successfully wins against a series of test bots, each representing a unique challenge.
