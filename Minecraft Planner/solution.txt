@@ -1,0 +1,69 @@
+ All items: ['bench', 'cart', 'coal', 'cobble', 'furnace', 'ingot', 'iron_axe', 'iron_pickaxe', 'ore', 'plank', 'rail', 'stick', 'stone_axe', 'stone_pickaxe', 'wood', 'wooden_axe', 'wooden_pickaxe']
+
+Initial inventory: {}
+
+Goal: {'bench': 1, 'wood': 2, 'plank': 2, 'stick': 2, 'wooden_pickaxe': 1, 'stone_pickaxe': 1, 'cobble': 1, 'furnace': 1}
+
+Search Time:  29.761325726837168
+
+0 ,  None ,  {}
+
+4 ,  punch for wood ,  {'wood': 1}
+
+5 ,  craft plank ,  {'plank': 4}
+
+6 ,  craft stick ,  {'plank': 2, 'stick': 4}
+
+10 ,  punch for wood ,  {'plank': 2, 'stick': 4, 'wood': 1}
+
+11 ,  craft plank ,  {'plank': 6, 'stick': 4}
+
+15 ,  punch for wood ,  {'plank': 6, 'stick': 4, 'wood': 1}
+
+16 ,  craft plank ,  {'plank': 10, 'stick': 4}
+
+17 ,  craft bench ,  {'bench': 1, 'plank': 6, 'stick': 4}
+
+18 ,  craft wooden_pickaxe at bench ,  {'bench': 1, 'plank': 3, 'stick': 2, 'wooden_pickaxe': 1}
+
+19 ,  craft wooden_axe at bench ,  {'bench': 1, 'wooden_axe': 1, 'wooden_pickaxe': 1}
+
+21 ,  wooden_axe for wood ,  {'bench': 1, 'wood': 1, 'wooden_axe': 1, 'wooden_pickaxe': 1}
+
+22 ,  craft plank ,  {'bench': 1, 'plank': 4, 'wooden_axe': 1, 'wooden_pickaxe': 1}
+
+23 ,  craft stick ,  {'bench': 1, 'plank': 2, 'stick': 4, 'wooden_axe': 1, 'wooden_pickaxe': 1}
+
+27 ,  wooden_pickaxe for cobble ,  {'bench': 1, 'cobble': 1, 'plank': 2, 'stick': 4, 'wooden_axe': 1, 'wooden_pickaxe': 1}
+
+31 ,  wooden_pickaxe for cobble ,  {'bench': 1, 'cobble': 2, 'plank': 2, 'stick': 4, 'wooden_axe': 1, 'wooden_pickaxe': 1}
+
+35 ,  wooden_pickaxe for cobble ,  {'bench': 1, 'cobble': 3, 'plank': 2, 'stick': 4, 'wooden_axe': 1, 'wooden_pickaxe': 1}
+
+36 ,  craft stone_pickaxe at bench ,  {'bench': 1, 'plank': 2, 'stick': 2, 'stone_pickaxe': 1, 'wooden_axe': 1, 'wooden_pickaxe': 1}
+
+38 ,  stone_pickaxe for cobble ,  {'bench': 1, 'cobble': 1, 'plank': 2, 'stick': 2, 'stone_pickaxe': 1, 'wooden_axe': 1, 'wooden_pickaxe': 1}
+
+40 ,  stone_pickaxe for cobble ,  {'bench': 1, 'cobble': 2, 'plank': 2, 'stick': 2, 'stone_pickaxe': 1, 'wooden_axe': 1, 'wooden_pickaxe': 1}
+
+42 ,  stone_pickaxe for cobble ,  {'bench': 1, 'cobble': 3, 'plank': 2, 'stick': 2, 'stone_pickaxe': 1, 'wooden_axe': 1, 'wooden_pickaxe': 1}
+
+44 ,  stone_pickaxe for cobble ,  {'bench': 1, 'cobble': 4, 'plank': 2, 'stick': 2, 'stone_pickaxe': 1, 'wooden_axe': 1, 'wooden_pickaxe': 1}
+
+46 ,  stone_pickaxe for cobble ,  {'bench': 1, 'cobble': 5, 'plank': 2, 'stick': 2, 'stone_pickaxe': 1, 'wooden_axe': 1, 'wooden_pickaxe': 1}
+
+48 ,  stone_pickaxe for cobble ,  {'bench': 1, 'cobble': 6, 'plank': 2, 'stick': 2, 'stone_pickaxe': 1, 'wooden_axe': 1, 'wooden_pickaxe': 1}
+
+50 ,  stone_pickaxe for cobble ,  {'bench': 1, 'cobble': 7, 'plank': 2, 'stick': 2, 'stone_pickaxe': 1, 'wooden_axe': 1, 'wooden_pickaxe': 1}
+
+52 ,  stone_pickaxe for cobble ,  {'bench': 1, 'cobble': 8, 'plank': 2, 'stick': 2, 'stone_pickaxe': 1, 'wooden_axe': 1, 'wooden_pickaxe': 1}
+
+53 ,  craft furnace at bench ,  {'bench': 1, 'furnace': 1, 'plank': 2, 'stick': 2, 'stone_pickaxe': 1, 'wooden_axe': 1, 'wooden_pickaxe': 1}
+
+55 ,  wooden_axe for wood ,  {'bench': 1, 'furnace': 1, 'plank': 2, 'stick': 2, 'stone_pickaxe': 1, 'wood': 1, 'wooden_axe': 1, 'wooden_pickaxe': 1}
+
+57 ,  wooden_axe for wood ,  {'bench': 1, 'furnace': 1, 'plank': 2, 'stick': 2, 'stone_pickaxe': 1, 'wood': 2, 'wooden_axe': 1, 'wooden_pickaxe': 1}
+
+59 ,  stone_pickaxe for cobble ,  {'bench': 1, 'cobble': 1, 'furnace': 1, 'plank': 2, 'stick': 2, 'stone_pickaxe': 1, 'wood': 2, 'wooden_axe': 1, 'wooden_pickaxe': 1}
+
+Cost: 59 , Length: 29
