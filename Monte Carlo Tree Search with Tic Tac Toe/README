@@ -1,6 +1,6 @@
 Partners:
 Curtis Lee (cuslee)
-Trina Tran (htran15)
+Ha Song Tran (htran15)
 
 Files:
 README
@@ -10,6 +10,8 @@ experiment2.txt
 mcts_vanilla.py
 mcts_modified.py
 
+Goal: 
+Implemented a bot that plays Ultimate Tic-Tac-Toe using Monte Carlo Tree Search (MCT
 
 Heuristics for mcts_vanilla:
 
