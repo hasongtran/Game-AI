@@ -1,0 +1,1 @@
+In this assignment, we wrote a program that finds interesting and playable Super Mario Bros. levels throughan evolutionary algorithm. We explored two different encodings of the Mario level, tweaking fitness functionsand evolutionary operators in both encodings to produce cool levels.
