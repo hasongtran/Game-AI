@@ -1,1 +1,5 @@
-hi
+Programmed  a  pathfinding  algorithm  which  returns  the  path  with  minimal cost between two waypoints in a maze.
+
+Implemented a function to compute the adjacent cells to a given cell on the level map. It should allow movement in 8 directions on the grid, including the diagonals. Movement should only allowed between “spaces” in the level file (not “walls”).
+
+Implemented a version of Dijkstra’s shortest path algorithm between a given pair of cells, returning the path (including the source and destination cells). The algorithm should stop searching as soon as the destination cell is found (not exploring the whole graph if it is not needed). If no path is possible, the algorithm should explicitly signal this (by returning None, an empty path, or raising an appropriately named exception).
