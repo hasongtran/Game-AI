@@ -2,9 +2,13 @@ P2: NAVMESH PATHFINDING
 SUBMISSIONS BY: TRINA TRAN
 PARTNER: NATHANIEL SURIAWIJAYA
 
+Implemented in Python a bidirectional A* search algorithm to solve the problem of finding paths in navmeshes 
+created from user-provided images.
+
 Submissions Contains:
 
 p2_pathfinder.py - implementation of find_path
 test_image.png - colorized image of banana slug
 test_image.png.mesh.pickle - mesh pickle of banana slug
 
+Did not quite get to bidirectional A*, but everything else should be there. 
