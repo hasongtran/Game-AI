@@ -1,0 +1,10 @@
+P2: NAVMESH PATHFINDING
+SUBMISSIONS BY: TRINA TRAN
+PARTNER: NATHANIEL SURIAWIJAYA
+
+Submissions Contains:
+
+p2_pathfinder.py - implementation of find_path
+test_image.png - colorized image of banana slug
+test_image.png.mesh.pickle - mesh pickle of banana slug
+
